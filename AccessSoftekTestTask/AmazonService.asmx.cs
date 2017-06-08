@@ -35,6 +35,9 @@ namespace AccessSoftekTestTask
                 return null;
             }
 
+            //simple sql injection defense
+            orderCode = orderCode.Replace("'", "''");
+
             try
             {
                 Stopwatch stopWatch = new Stopwatch();
