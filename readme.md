@@ -1,4 +1,5 @@
 ﻿### Tasks for basic C# knowledge
+ 
 1. SQL tables
 Let we have a production database on a large web application like Amazon. Let we have two tables:
 table Order
@@ -10,6 +11,7 @@ table OrderItem
   OrderID int, -- // Points to Order table.
   ... -- // Other order item columns
 Let we have Order row with OrderID = 1 and several OrderItem rows with OrderID = 1 we need to change OrderID to 2. How to implement this? You need to provide SQL fragment that solves this task.
+
 2. Foo code
 What is the aim of the following code fragment? What are adv/disadv of this solution? Implement better fragment.
 ```C#
@@ -21,6 +23,7 @@ static int Foo( int a, int b, int c )
     return a;
 }
 ```
+
 3. Another foo code.
 What is the aim of the following fragment? What are adv/disadv of this solution? You need to propose several possible improvements.
 ```C#
@@ -37,6 +40,7 @@ int[] Foo( int[] arr )
   return arr;
 }
 ```
+
 4. What is wrong in the following code?
 You are involved in a new project. This is a web service that implements access to database for a web application like Amazon. Your IT lead asks you to analyze following code fragment. Your goal is to identify as much more issues as you can and compose a list of issues in the following form: brief issue description - how to resolve.
 1. There is a division to zero issue. Need to apply check if input parameter is not zero.
