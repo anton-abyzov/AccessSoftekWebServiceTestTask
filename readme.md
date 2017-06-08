@@ -20,6 +20,7 @@ static int Foo( int a, int b, int c )
   else
     return a;
 }
+```
 3. Another foo code.
 What is the aim of the following fragment? What are adv/disadv of this solution? You need to propose several possible improvements.
 ```C#
