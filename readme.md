@@ -36,6 +36,7 @@ int[] Foo( int[] arr )
       }
   return arr;
 }
+```
 4. What is wrong in the following code?
 You are involved in a new project. This is a web service that implements access to database for a web application like Amazon. Your IT lead asks you to analyze following code fragment. Your goal is to identify as much more issues as you can and compose a list of issues in the following form: brief issue description - how to resolve.
 1. There is a division to zero issue. Need to apply check if input parameter is not zero.
